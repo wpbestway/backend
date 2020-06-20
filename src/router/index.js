@@ -73,6 +73,9 @@ export default new Router({
         },{
           path: 'banner/add',
           component: () => import('@/pages/banner/add.vue')
+        },{
+          path: 'test',
+          component: () => import('@/pages/test/index.vue')
         }
       ]
     }
