@@ -1,0 +1,38 @@
+.el-menu-item:hover{
+	color:rgba(26, 188, 156, 0.8);
+}
+.el-menu-item.is-active{
+	color:rgba(26, 188, 156, 0.8);
+}
+.el-table--border,.el-table--group{
+/*	border: 1px solid #bbb;
+*/
+}
+.el-input__inner{
+	border: none;
+}
+.el-table td, .el-table th.is-leaf{
+	/*border-right: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;*/
+}
+.el-button--primary{
+	background-color: rgb(26, 188, 156);
+  border-color: rgb(26, 188, 156);
+}
+.el-button--primary:focus,.el-button--primary:hover{
+	background-color: rgb(26, 188, 156);
+	border-color: rgb(26, 188, 156);
+	opacity: 0.8;
+}
+.el-button--text.primary{
+	color: rgb(26, 188, 156);
+}
+.el-tabs__item:hover,.el-tabs__item.is-active{
+	color: rgb(26, 188, 156);
+}
+.el-tabs__active-bar{
+	background-color: rgb(26, 188, 156);
+}
+.el-upload__tip{
+	margin-top: 0;
+}
